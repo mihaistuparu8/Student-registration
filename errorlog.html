@@ -1,0 +1,599 @@
+
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Mar 22, 2016 11:57AM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'phplogin.smvc_users_data' doesn't exist</p>
+
+           <p><strong>Code:</strong> 42S02</p>
+
+           <p><strong>File:</strong> C:\wamp\www\framework\app\Helpers\Database.php</p>
+
+           <p><strong>Line:</strong> 104</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\wamp\www\framework\app\Helpers\Database.php(104): PDOStatement->execute()
+#1 C:\wamp\www\framework\app\Models\Login.php(60): Helpers\Database->select('SELECT * FROM s...', Array)
+#2 C:\wamp\www\framework\app\Models\Login.php(136): Models\Login->_user_unique('mihai10shiros@y...')
+#3 C:\wamp\www\framework\app\Controllers\Login.php(71): Models\Login->application()
+#4 [internal function]: Controllers\Login->application()
+#5 C:\wamp\www\framework\app\Core\Router.php(126): call_user_func_array(Array, Array)
+#6 C:\wamp\www\framework\app\Core\Router.php(217): Core\Router::invokeObject('Controllers\\Log...')
+#7 C:\wamp\www\framework\app\Core\routes.php(42): Core\Router::dispatch()
+#8 C:\wamp\www\framework\index.php(81): require('C:\\wamp\\www\\fra...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Mar 22, 2016 12:00PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '' for column 'address_valid_until' at row 1</p>
+
+           <p><strong>Code:</strong> 22007</p>
+
+           <p><strong>File:</strong> C:\wamp\www\framework\app\Helpers\Database.php</p>
+
+           <p><strong>Line:</strong> 131</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\wamp\www\framework\app\Helpers\Database.php(131): PDOStatement->execute()
+#1 C:\wamp\www\framework\app\Models\Login.php(79): Helpers\Database->insert('smvc_users_info', Array)
+#2 C:\wamp\www\framework\app\Models\Login.php(143): Models\Login->add_info(Array)
+#3 C:\wamp\www\framework\app\Controllers\Login.php(71): Models\Login->application()
+#4 [internal function]: Controllers\Login->application()
+#5 C:\wamp\www\framework\app\Core\Router.php(126): call_user_func_array(Array, Array)
+#6 C:\wamp\www\framework\app\Core\Router.php(217): Core\Router::invokeObject('Controllers\\Log...')
+#7 C:\wamp\www\framework\app\Core\routes.php(42): Core\Router::dispatch()
+#8 C:\wamp\www\framework\index.php(81): require('C:\\wamp\\www\\fra...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Mar 22, 2016 12:30PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'permanent_adress' in 'field list'</p>
+
+           <p><strong>Code:</strong> 42S22</p>
+
+           <p><strong>File:</strong> C:\wamp\www\framework\app\Helpers\Database.php</p>
+
+           <p><strong>Line:</strong> 131</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\wamp\www\framework\app\Helpers\Database.php(131): PDOStatement->execute()
+#1 C:\wamp\www\framework\app\Models\Login.php(79): Helpers\Database->insert('smvc_users_info', Array)
+#2 C:\wamp\www\framework\app\Models\Login.php(142): Models\Login->add_info(Array)
+#3 C:\wamp\www\framework\app\Controllers\Login.php(71): Models\Login->application()
+#4 [internal function]: Controllers\Login->application()
+#5 C:\wamp\www\framework\app\Core\Router.php(126): call_user_func_array(Array, Array)
+#6 C:\wamp\www\framework\app\Core\Router.php(217): Core\Router::invokeObject('Controllers\\Log...')
+#7 C:\wamp\www\framework\app\Core\routes.php(42): Core\Router::dispatch()
+#8 C:\wamp\www\framework\index.php(81): require('C:\\wamp\\www\\fra...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Mar 31, 2016 12:21PM</p>
+
+           <p><strong>Message:</strong> Validator method 'validate_' does not exist.</p>
+
+           <p><strong>Code:</strong> 0</p>
+
+           <p><strong>File:</strong> C:\wamp\www\framework\app\Helpers\Gump.php</p>
+
+           <p><strong>Line:</strong> 403</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\wamp\www\framework\app\Helpers\Gump.php(231): Helpers\Gump->validate(Array, Array)
+#1 C:\wamp\www\framework\app\Helpers\Gump.php(97): Helpers\Gump->run(Array)
+#2 C:\wamp\www\framework\app\Models\Login.php(27): Helpers\Gump::is_valid(Array, Array)
+#3 C:\wamp\www\framework\app\Controllers\Login.php(49): Models\Login->login()
+#4 [internal function]: Controllers\Login->login()
+#5 C:\wamp\www\framework\app\Core\Router.php(126): call_user_func_array(Array, Array)
+#6 C:\wamp\www\framework\app\Core\Router.php(217): Core\Router::invokeObject('Controllers\\Log...')
+#7 C:\wamp\www\framework\app\Core\routes.php(42): Core\Router::dispatch()
+#8 C:\wamp\www\framework\index.php(81): require('C:\\wamp\\www\\fra...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Mar 31, 2016 12:24PM</p>
+
+           <p><strong>Message:</strong> Validator method 'validate_' does not exist.</p>
+
+           <p><strong>Code:</strong> 0</p>
+
+           <p><strong>File:</strong> C:\wamp\www\framework\app\Helpers\Gump.php</p>
+
+           <p><strong>Line:</strong> 403</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\wamp\www\framework\app\Helpers\Gump.php(231): Helpers\Gump->validate(Array, Array)
+#1 C:\wamp\www\framework\app\Helpers\Gump.php(97): Helpers\Gump->run(Array)
+#2 C:\wamp\www\framework\app\Models\Login.php(27): Helpers\Gump::is_valid(Array, Array)
+#3 C:\wamp\www\framework\app\Controllers\Login.php(49): Models\Login->login()
+#4 [internal function]: Controllers\Login->login()
+#5 C:\wamp\www\framework\app\Core\Router.php(126): call_user_func_array(Array, Array)
+#6 C:\wamp\www\framework\app\Core\Router.php(217): Core\Router::invokeObject('Controllers\\Log...')
+#7 C:\wamp\www\framework\app\Core\routes.php(42): Core\Router::dispatch()
+#8 C:\wamp\www\framework\index.php(81): require('C:\\wamp\\www\\fra...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Mar 31, 2016 12:29PM</p>
+
+           <p><strong>Message:</strong> Validator method 'validate_' does not exist.</p>
+
+           <p><strong>Code:</strong> 0</p>
+
+           <p><strong>File:</strong> C:\wamp\www\framework\app\Helpers\Gump.php</p>
+
+           <p><strong>Line:</strong> 403</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\wamp\www\framework\app\Helpers\Gump.php(231): Helpers\Gump->validate(Array, Array)
+#1 C:\wamp\www\framework\app\Helpers\Gump.php(97): Helpers\Gump->run(Array)
+#2 C:\wamp\www\framework\app\Models\Login.php(27): Helpers\Gump::is_valid(Array, Array)
+#3 C:\wamp\www\framework\app\Controllers\Login.php(49): Models\Login->login()
+#4 [internal function]: Controllers\Login->login()
+#5 C:\wamp\www\framework\app\Core\Router.php(126): call_user_func_array(Array, Array)
+#6 C:\wamp\www\framework\app\Core\Router.php(217): Core\Router::invokeObject('Controllers\\Log...')
+#7 C:\wamp\www\framework\app\Core\routes.php(42): Core\Router::dispatch()
+#8 C:\wamp\www\framework\index.php(81): require('C:\\wamp\\www\\fra...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Mar 31, 2016 12:34PM</p>
+
+           <p><strong>Message:</strong> Validator method 'validate_' does not exist.</p>
+
+           <p><strong>Code:</strong> 0</p>
+
+           <p><strong>File:</strong> C:\wamp\www\framework\app\Helpers\Gump.php</p>
+
+           <p><strong>Line:</strong> 403</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\wamp\www\framework\app\Helpers\Gump.php(231): Helpers\Gump->validate(Array, Array)
+#1 C:\wamp\www\framework\app\Helpers\Gump.php(97): Helpers\Gump->run(Array)
+#2 C:\wamp\www\framework\app\Models\Login.php(27): Helpers\Gump::is_valid(Array, Array)
+#3 C:\wamp\www\framework\app\Controllers\Login.php(49): Models\Login->login()
+#4 [internal function]: Controllers\Login->login()
+#5 C:\wamp\www\framework\app\Core\Router.php(126): call_user_func_array(Array, Array)
+#6 C:\wamp\www\framework\app\Core\Router.php(217): Core\Router::invokeObject('Controllers\\Log...')
+#7 C:\wamp\www\framework\app\Core\routes.php(42): Core\Router::dispatch()
+#8 C:\wamp\www\framework\index.php(81): require('C:\\wamp\\www\\fra...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Mar 31, 2016 12:35PM</p>
+
+           <p><strong>Message:</strong> Validator method 'validate_' does not exist.</p>
+
+           <p><strong>Code:</strong> 0</p>
+
+           <p><strong>File:</strong> C:\wamp\www\framework\app\Helpers\Gump.php</p>
+
+           <p><strong>Line:</strong> 403</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\wamp\www\framework\app\Helpers\Gump.php(231): Helpers\Gump->validate(Array, Array)
+#1 C:\wamp\www\framework\app\Helpers\Gump.php(97): Helpers\Gump->run(Array)
+#2 C:\wamp\www\framework\app\Models\Login.php(27): Helpers\Gump::is_valid(Array, Array)
+#3 C:\wamp\www\framework\app\Controllers\Login.php(49): Models\Login->login()
+#4 [internal function]: Controllers\Login->login()
+#5 C:\wamp\www\framework\app\Core\Router.php(126): call_user_func_array(Array, Array)
+#6 C:\wamp\www\framework\app\Core\Router.php(217): Core\Router::invokeObject('Controllers\\Log...')
+#7 C:\wamp\www\framework\app\Core\routes.php(42): Core\Router::dispatch()
+#8 C:\wamp\www\framework\index.php(81): require('C:\\wamp\\www\\fra...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Mar 31, 2016 12:35PM</p>
+
+           <p><strong>Message:</strong> Validator method 'validate_' does not exist.</p>
+
+           <p><strong>Code:</strong> 0</p>
+
+           <p><strong>File:</strong> C:\wamp\www\framework\app\Helpers\Gump.php</p>
+
+           <p><strong>Line:</strong> 403</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\wamp\www\framework\app\Helpers\Gump.php(231): Helpers\Gump->validate(Array, Array)
+#1 C:\wamp\www\framework\app\Helpers\Gump.php(97): Helpers\Gump->run(Array)
+#2 C:\wamp\www\framework\app\Models\Login.php(27): Helpers\Gump::is_valid(Array, Array)
+#3 C:\wamp\www\framework\app\Controllers\Login.php(49): Models\Login->login()
+#4 [internal function]: Controllers\Login->login()
+#5 C:\wamp\www\framework\app\Core\Router.php(126): call_user_func_array(Array, Array)
+#6 C:\wamp\www\framework\app\Core\Router.php(217): Core\Router::invokeObject('Controllers\\Log...')
+#7 C:\wamp\www\framework\app\Core\routes.php(42): Core\Router::dispatch()
+#8 C:\wamp\www\framework\index.php(81): require('C:\\wamp\\www\\fra...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Apr 03, 2016 21:03PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROMsmvc_users WHERE email= 'mihai10shiros@yahoo.com'' at line 1</p>
+
+           <p><strong>Code:</strong> 42000</p>
+
+           <p><strong>File:</strong> C:\wamp\www\framework\app\Helpers\Database.php</p>
+
+           <p><strong>Line:</strong> 104</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\wamp\www\framework\app\Helpers\Database.php(104): PDOStatement->execute()
+#1 C:\wamp\www\framework\app\Models\Login.php(177): Helpers\Database->select('SELECT * FROMsm...', Array)
+#2 C:\wamp\www\framework\app\Models\Login.php(32): Models\Login->get_user('mihai10shiros@y...')
+#3 C:\wamp\www\framework\app\Controllers\Login.php(49): Models\Login->login()
+#4 [internal function]: Controllers\Login->login()
+#5 C:\wamp\www\framework\app\Core\Router.php(126): call_user_func_array(Array, Array)
+#6 C:\wamp\www\framework\app\Core\Router.php(217): Core\Router::invokeObject('Controllers\\Log...')
+#7 C:\wamp\www\framework\app\Core\routes.php(41): Core\Router::dispatch()
+#8 C:\wamp\www\framework\index.php(81): require('C:\\wamp\\www\\fra...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Apr 14, 2016 20:47PM</p>
+
+           <p><strong>Message:</strong> Validator method 'validate_numerc' does not exist.</p>
+
+           <p><strong>Code:</strong> 0</p>
+
+           <p><strong>File:</strong> C:\wamp\www\framework\app\Helpers\Gump.php</p>
+
+           <p><strong>Line:</strong> 403</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\wamp\www\framework\app\Helpers\Gump.php(231): Helpers\Gump->validate(Array, Array)
+#1 C:\wamp\www\framework\app\Helpers\Gump.php(97): Helpers\Gump->run(Array)
+#2 C:\wamp\www\framework\app\Models\Login.php(162): Helpers\Gump::is_valid(Array, Array)
+#3 C:\wamp\www\framework\app\Controllers\Login.php(152): Models\Login->application()
+#4 [internal function]: Controllers\Login->application()
+#5 C:\wamp\www\framework\app\Core\Router.php(126): call_user_func_array(Array, Array)
+#6 C:\wamp\www\framework\app\Core\Router.php(217): Core\Router::invokeObject('Controllers\\Log...')
+#7 C:\wamp\www\framework\app\Core\routes.php(56): Core\Router::dispatch()
+#8 C:\wamp\www\framework\index.php(81): require('C:\\wamp\\www\\fra...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Apr 14, 2016 20:48PM</p>
+
+           <p><strong>Message:</strong> Validator method 'validate_numerc' does not exist.</p>
+
+           <p><strong>Code:</strong> 0</p>
+
+           <p><strong>File:</strong> C:\wamp\www\framework\app\Helpers\Gump.php</p>
+
+           <p><strong>Line:</strong> 403</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\wamp\www\framework\app\Helpers\Gump.php(231): Helpers\Gump->validate(Array, Array)
+#1 C:\wamp\www\framework\app\Helpers\Gump.php(97): Helpers\Gump->run(Array)
+#2 C:\wamp\www\framework\app\Models\Login.php(162): Helpers\Gump::is_valid(Array, Array)
+#3 C:\wamp\www\framework\app\Controllers\Login.php(152): Models\Login->application()
+#4 [internal function]: Controllers\Login->application()
+#5 C:\wamp\www\framework\app\Core\Router.php(126): call_user_func_array(Array, Array)
+#6 C:\wamp\www\framework\app\Core\Router.php(217): Core\Router::invokeObject('Controllers\\Log...')
+#7 C:\wamp\www\framework\app\Core\routes.php(56): Core\Router::dispatch()
+#8 C:\wamp\www\framework\index.php(81): require('C:\\wamp\\www\\fra...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Apr 14, 2016 20:49PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'dept_tel' at row 1</p>
+
+           <p><strong>Code:</strong> 22003</p>
+
+           <p><strong>File:</strong> C:\wamp\www\framework\app\Helpers\Database.php</p>
+
+           <p><strong>Line:</strong> 131</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\wamp\www\framework\app\Helpers\Database.php(131): PDOStatement->execute()
+#1 C:\wamp\www\framework\app\Models\Login.php(76): Helpers\Database->insert('smvc_sending_in...', Array)
+#2 C:\wamp\www\framework\app\Models\Login.php(194): Models\Login->add_sending(Array)
+#3 C:\wamp\www\framework\app\Controllers\Login.php(152): Models\Login->application()
+#4 [internal function]: Controllers\Login->application()
+#5 C:\wamp\www\framework\app\Core\Router.php(126): call_user_func_array(Array, Array)
+#6 C:\wamp\www\framework\app\Core\Router.php(217): Core\Router::invokeObject('Controllers\\Log...')
+#7 C:\wamp\www\framework\app\Core\routes.php(56): Core\Router::dispatch()
+#8 C:\wamp\www\framework\index.php(81): require('C:\\wamp\\www\\fra...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Apr 14, 2016 20:59PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'dept_tel' at row 1</p>
+
+           <p><strong>Code:</strong> 22003</p>
+
+           <p><strong>File:</strong> C:\wamp\www\framework\app\Helpers\Database.php</p>
+
+           <p><strong>Line:</strong> 131</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\wamp\www\framework\app\Helpers\Database.php(131): PDOStatement->execute()
+#1 C:\wamp\www\framework\app\Models\Login.php(76): Helpers\Database->insert('smvc_sending_in...', Array)
+#2 C:\wamp\www\framework\app\Models\Login.php(194): Models\Login->add_sending(Array)
+#3 C:\wamp\www\framework\app\Controllers\Login.php(152): Models\Login->application()
+#4 [internal function]: Controllers\Login->application()
+#5 C:\wamp\www\framework\app\Core\Router.php(126): call_user_func_array(Array, Array)
+#6 C:\wamp\www\framework\app\Core\Router.php(217): Core\Router::invokeObject('Controllers\\Log...')
+#7 C:\wamp\www\framework\app\Core\routes.php(56): Core\Router::dispatch()
+#8 C:\wamp\www\framework\index.php(81): require('C:\\wamp\\www\\fra...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Apr 14, 2016 21:45PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value</p>
+
+           <p><strong>Code:</strong> HY000</p>
+
+           <p><strong>File:</strong> C:\wamp\www\framework\app\Helpers\Database.php</p>
+
+           <p><strong>Line:</strong> 131</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\wamp\www\framework\app\Helpers\Database.php(131): PDOStatement->execute()
+#1 C:\wamp\www\framework\app\Models\Login.php(76): Helpers\Database->insert('smvc_sending_in...', Array)
+#2 C:\wamp\www\framework\app\Models\Login.php(194): Models\Login->add_sending(Array)
+#3 C:\wamp\www\framework\app\Controllers\Login.php(152): Models\Login->application()
+#4 [internal function]: Controllers\Login->application()
+#5 C:\wamp\www\framework\app\Core\Router.php(126): call_user_func_array(Array, Array)
+#6 C:\wamp\www\framework\app\Core\Router.php(217): Core\Router::invokeObject('Controllers\\Log...')
+#7 C:\wamp\www\framework\app\Core\routes.php(56): Core\Router::dispatch()
+#8 C:\wamp\www\framework\index.php(81): require('C:\\wamp\\www\\fra...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Apr 14, 2016 22:52PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'dept_tel' at row 1</p>
+
+           <p><strong>Code:</strong> 22003</p>
+
+           <p><strong>File:</strong> C:\wamp\www\framework\app\Helpers\Database.php</p>
+
+           <p><strong>Line:</strong> 131</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\wamp\www\framework\app\Helpers\Database.php(131): PDOStatement->execute()
+#1 C:\wamp\www\framework\app\Models\Login.php(80): Helpers\Database->insert('smvc_sending_in...', Array)
+#2 C:\wamp\www\framework\app\Models\Login.php(198): Models\Login->add_sending(Array)
+#3 C:\wamp\www\framework\app\Controllers\Login.php(152): Models\Login->application()
+#4 [internal function]: Controllers\Login->application()
+#5 C:\wamp\www\framework\app\Core\Router.php(126): call_user_func_array(Array, Array)
+#6 C:\wamp\www\framework\app\Core\Router.php(217): Core\Router::invokeObject('Controllers\\Log...')
+#7 C:\wamp\www\framework\app\Core\routes.php(56): Core\Router::dispatch()
+#8 C:\wamp\www\framework\index.php(81): require('C:\\wamp\\www\\fra...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Apr 14, 2016 23:29PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value</p>
+
+           <p><strong>Code:</strong> HY000</p>
+
+           <p><strong>File:</strong> C:\wamp\www\framework\app\Helpers\Database.php</p>
+
+           <p><strong>Line:</strong> 131</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\wamp\www\framework\app\Helpers\Database.php(131): PDOStatement->execute()
+#1 C:\wamp\www\framework\app\Models\Login.php(76): Helpers\Database->insert('smvc_sending_in...', Array)
+#2 C:\wamp\www\framework\app\Models\Login.php(194): Models\Login->add_sending(Array)
+#3 C:\wamp\www\framework\app\Controllers\Login.php(152): Models\Login->application()
+#4 [internal function]: Controllers\Login->application()
+#5 C:\wamp\www\framework\app\Core\Router.php(126): call_user_func_array(Array, Array)
+#6 C:\wamp\www\framework\app\Core\Router.php(217): Core\Router::invokeObject('Controllers\\Log...')
+#7 C:\wamp\www\framework\app\Core\routes.php(56): Core\Router::dispatch()
+#8 C:\wamp\www\framework\index.php(81): require('C:\\wamp\\www\\fra...')
+#9 {main}</pre>
+
+           <hr />
+<p>Error on Apr 15, 2016 0:10AM - Missing argument 3 for Helpers\Database::update(), called in C:\wamp\www\framework\app\Models\Login.php on line 210 and defined in C:\wamp\www\framework\app\Helpers\Database.php on line 141</p><h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Apr 15, 2016 14:05PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'phplogin.smvc_sending_institutionn' doesn't exist</p>
+
+           <p><strong>Code:</strong> 42S02</p>
+
+           <p><strong>File:</strong> C:\wamp\www\framework\app\Helpers\Database.php</p>
+
+           <p><strong>Line:</strong> 131</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\wamp\www\framework\app\Helpers\Database.php(131): PDOStatement->execute()
+#1 C:\wamp\www\framework\app\Models\Login.php(76): Helpers\Database->insert('smvc_sending_in...', Array)
+#2 C:\wamp\www\framework\app\Models\Login.php(197): Models\Login->add_sending(Array)
+#3 C:\wamp\www\framework\app\Controllers\Login.php(152): Models\Login->application()
+#4 [internal function]: Controllers\Login->application()
+#5 C:\wamp\www\framework\app\Core\Router.php(126): call_user_func_array(Array, Array)
+#6 C:\wamp\www\framework\app\Core\Router.php(217): Core\Router::invokeObject('Controllers\\Log...')
+#7 C:\wamp\www\framework\app\Core\routes.php(56): Core\Router::dispatch()
+#8 C:\wamp\www\framework\index.php(81): require('C:\\wamp\\www\\fra...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Apr 15, 2016 16:33PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'currently_studying' cannot be null</p>
+
+           <p><strong>Code:</strong> 23000</p>
+
+           <p><strong>File:</strong> C:\wamp\www\framework\app\Helpers\Database.php</p>
+
+           <p><strong>Line:</strong> 131</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\wamp\www\framework\app\Helpers\Database.php(131): PDOStatement->execute()
+#1 C:\wamp\www\framework\app\Models\Login.php(91): Helpers\Database->insert('smvc_foreign_la...', Array)
+#2 C:\wamp\www\framework\app\Models\Login.php(228): Models\Login->add_language(Array)
+#3 C:\wamp\www\framework\app\Controllers\Login.php(152): Models\Login->application()
+#4 [internal function]: Controllers\Login->application()
+#5 C:\wamp\www\framework\app\Core\Router.php(126): call_user_func_array(Array, Array)
+#6 C:\wamp\www\framework\app\Core\Router.php(217): Core\Router::invokeObject('Controllers\\Log...')
+#7 C:\wamp\www\framework\app\Core\routes.php(56): Core\Router::dispatch()
+#8 C:\wamp\www\framework\index.php(81): require('C:\\wamp\\www\\fra...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Apr 15, 2016 18:04PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'inst_email' cannot be null</p>
+
+           <p><strong>Code:</strong> 23000</p>
+
+           <p><strong>File:</strong> C:\wamp\www\framework\app\Helpers\Database.php</p>
+
+           <p><strong>Line:</strong> 131</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\wamp\www\framework\app\Helpers\Database.php(131): PDOStatement->execute()
+#1 C:\wamp\www\framework\app\Models\Login.php(77): Helpers\Database->insert('smvc_sending_in...', Array)
+#2 C:\wamp\www\framework\app\Models\Login.php(238): Models\Login->add_sending(Array)
+#3 C:\wamp\www\framework\app\Controllers\Login.php(152): Models\Login->application()
+#4 [internal function]: Controllers\Login->application()
+#5 C:\wamp\www\framework\app\Core\Router.php(126): call_user_func_array(Array, Array)
+#6 C:\wamp\www\framework\app\Core\Router.php(217): Core\Router::invokeObject('Controllers\\Log...')
+#7 C:\wamp\www\framework\app\Core\routes.php(56): Core\Router::dispatch()
+#8 C:\wamp\www\framework\index.php(81): require('C:\\wamp\\www\\fra...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Apr 16, 2016 17:52PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value</p>
+
+           <p><strong>Code:</strong> HY000</p>
+
+           <p><strong>File:</strong> C:\wamp\www\framework\app\Helpers\Database.php</p>
+
+           <p><strong>Line:</strong> 131</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\wamp\www\framework\app\Helpers\Database.php(131): PDOStatement->execute()
+#1 C:\wamp\www\framework\app\Models\Login.php(98): Helpers\Database->insert('smvc_accommodat...', Array)
+#2 C:\wamp\www\framework\app\Models\Login.php(279): Models\Login->add_accommodation(Array)
+#3 C:\wamp\www\framework\app\Controllers\Login.php(175): Models\Login->logged_accommodation()
+#4 [internal function]: Controllers\Login->logged_accommodation()
+#5 C:\wamp\www\framework\app\Core\Router.php(126): call_user_func_array(Array, Array)
+#6 C:\wamp\www\framework\app\Core\Router.php(217): Core\Router::invokeObject('Controllers\\Log...')
+#7 C:\wamp\www\framework\app\Core\routes.php(57): Core\Router::dispatch()
+#8 C:\wamp\www\framework\index.php(81): require('C:\\wamp\\www\\fra...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Apr 16, 2016 18:39PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'field list'</p>
+
+           <p><strong>Code:</strong> 42S22</p>
+
+           <p><strong>File:</strong> C:\wamp\www\framework\app\Helpers\Database.php</p>
+
+           <p><strong>Line:</strong> 131</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\wamp\www\framework\app\Helpers\Database.php(131): PDOStatement->execute()
+#1 C:\wamp\www\framework\app\Models\Login.php(98): Helpers\Database->insert('smvc_accommodat...', Array)
+#2 C:\wamp\www\framework\app\Models\Login.php(280): Models\Login->add_accommodation(Array)
+#3 C:\wamp\www\framework\app\Controllers\Login.php(175): Models\Login->logged_accommodation()
+#4 [internal function]: Controllers\Login->logged_accommodation()
+#5 C:\wamp\www\framework\app\Core\Router.php(126): call_user_func_array(Array, Array)
+#6 C:\wamp\www\framework\app\Core\Router.php(217): Core\Router::invokeObject('Controllers\\Log...')
+#7 C:\wamp\www\framework\app\Core\routes.php(57): Core\Router::dispatch()
+#8 C:\wamp\www\framework\index.php(81): require('C:\\wamp\\www\\fra...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Apr 16, 2016 18:41PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'id_user'</p>
+
+           <p><strong>Code:</strong> 23000</p>
+
+           <p><strong>File:</strong> C:\wamp\www\framework\app\Helpers\Database.php</p>
+
+           <p><strong>Line:</strong> 131</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\wamp\www\framework\app\Helpers\Database.php(131): PDOStatement->execute()
+#1 C:\wamp\www\framework\app\Models\Login.php(98): Helpers\Database->insert('smvc_accommodat...', Array)
+#2 C:\wamp\www\framework\app\Models\Login.php(280): Models\Login->add_accommodation(Array)
+#3 C:\wamp\www\framework\app\Controllers\Login.php(175): Models\Login->logged_accommodation()
+#4 [internal function]: Controllers\Login->logged_accommodation()
+#5 C:\wamp\www\framework\app\Core\Router.php(126): call_user_func_array(Array, Array)
+#6 C:\wamp\www\framework\app\Core\Router.php(217): Core\Router::invokeObject('Controllers\\Log...')
+#7 C:\wamp\www\framework\app\Core\routes.php(57): Core\Router::dispatch()
+#8 C:\wamp\www\framework\index.php(81): require('C:\\wamp\\www\\fra...')
+#9 {main}</pre>
+
+           <hr />
